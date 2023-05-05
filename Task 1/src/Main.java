@@ -1,11 +1,35 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int toadEyesCount = 0;          //Жабьи глаза
-        int ghoulTearsCount = 0;        //Слезы вурдалака
-        int ravenBonesCount = 0;        //Кости ворона
-        int dumplingsCount = 0;         //Пельмени(а почему, собственно нет? xD )
+       boolean isContinue = true;
+//        int toadEyesCount = 0;          //Жабьи глаза
+//        int ghoulTearsCount = 0;        //Слезы вурдалака
+//        int ravenBonesCount = 0;        //Кости ворона
+//        int dumplingsCount = 0;         //Пельмени(а почему, собственно нет? xD )
+while (isContinue) {
+    System.out.println("Enter quality of toad eyes: ");
+    int toadEyesCount = new Scanner(System.in).nextInt();
+    System.out.println("Enter quality of ghoul tears: ");
+    int ghoulTearsCount = new Scanner(System.in).nextInt();
+    System.out.println("Enter quality of raven bones: ");
+    int ravenBonesCount = new Scanner(System.in).nextInt();
+    System.out.println("Enter quality of dumplings: ");
+    int dumplingsCount = new Scanner(System.in).nextInt();
+    if (toadEyesCount >= 3 && ravenBonesCount >= 1) {
+        System.out.println("You can make a Good vision elixir");
+    } if (ravenBonesCount >= 2 && dumplingsCount >= 4) {
+        System.out.println("You can make a force elixir");
+        }  if (ghoulTearsCount >= 7 && dumplingsCount >= 1 && toadEyesCount >= 2) {
+        System.out.println("You can make a dimmed vision elixir");
+    } if (ghoulTearsCount >= 5 && dumplingsCount >= 10 && toadEyesCount >= 4 && ravenBonesCount >= 3) {
+        System.out.println("You can make the Vorbidden elixir");
+    } else {
+        System.out.println("You can`t make an elixir");
+        isContinue = false;
+    }
+}
 
-        //todo реализовать ввод пользователем кол-ва ингредиентов.
 
         //Рецепты Эликсиров:
         // 1. 3 Жабьих глаза + 1 кость ворона - Эликсир зоркости
