@@ -31,18 +31,18 @@ public class VariablesTheme {
         System.out.println("\t\t J" + "\t\t a  a\t  v" + "\t\t   v " + "  a " + "  a");
         System.out.println("J\t\t J\t" + "\t aaaaa\t   " + "V   V " + "  aaaaa" + "\n");
 
-        byte maxBite = 127;
-        short maxShort = 32767;
-        int maxInt = 2147483647;
-        long maxLong = 9223372036854775807l;
-        System.out.println("первоначальное значение maxByte " + maxBite + "\nзначение maxByte после инкремента на единицу "
-                + maxBite++ + "\nзначение maxByte после декремента на единицу " + maxBite--+ "\n");
-        System.out.println("первоначальное значение maxShort " + maxShort + "\nзначение maxShort после инкремента на единицу "
-                + maxShort++ + "\nзначение maxShort после декремента на единицу " + maxShort--+ "\n");
-        System.out.println("первоначальное значение maxInt " + maxInt + "\nзначение maxInt после инкремента на единицу "
-                + maxInt++ + "\nзначение maxInt после декремента на единицу " + maxInt--+ "\n");
-        System.out.println("первоначальное значение maxLong " + maxLong + "\nзначение maxLong после инкремента на единицу "
-                + maxLong++ + "\nзначение maxLong после декремента на единицу " + maxLong--+ "\n");
+        byte mBite = 127;
+        short mShort = 32767;
+        int mInt = 2147483647;
+        long mLong = 9223372036854775807l;
+        System.out.println("первоначальное значение maxByte " + mBite + "\nзначение maxByte после инкремента на единицу "
+                + mBite++ + "\nзначение maxByte после декремента на единицу " + mBite--+ "\n");
+        System.out.println("первоначальное значение maxShort " + mShort + "\nзначение maxShort после инкремента на единицу "
+                + mShort++ + "\nзначение maxShort после декремента на единицу " + mShort--+ "\n");
+        System.out.println("первоначальное значение maxInt " + mInt + "\nзначение maxInt после инкремента на единицу "
+                + mInt++ + "\nзначение maxInt после декремента на единицу " + mInt--+ "\n");
+        System.out.println("первоначальное значение maxLong " + mLong + "\nзначение maxLong после инкремента на единицу "
+                + mLong++ + "\nзначение maxLong после декремента на единицу " + mLong--+ "\n");
 
         int a = 2;
         int b = 5;
@@ -68,20 +68,20 @@ public class VariablesTheme {
 
         System.out.println("Вывод символов и их кодов");
         char c1 = 35;
-        int aC1 = c1;
-        System.out.println("символ " + c1 + " имеет код ASCII " + aC1);
+        int aC = c1;
+        System.out.println("символ " + c1 + " имеет код ASCII " + aC);
         char a1 = 38;
-        int aA1 = a1;
-        System.out.println("символ " + a1 + " имеет код ASCII " + aA1);
+        int aA = a1;
+        System.out.println("символ " + a1 + " имеет код ASCII " + aA);
         char b1 = 64;
-        int aB1 = b1;
-        System.out.println("символ " + b1 + " имеет код ASCII " + aB1);
+        int aB = b1;
+        System.out.println("символ " + b1 + " имеет код ASCII " + aB);
         char d1 = 94;
-        int aD1 = d1;
-        System.out.println("символ " + d1 + " имеет код ASCII " + aD1);
+        int aD = d1;
+        System.out.println("символ " + d1 + " имеет код ASCII " + aD);
         char e1 = 95;
-        int aE1 = c1;
-        System.out.println("символ " + e1 + " имеет код ASCII " + aE1);
+        int aE = c1;
+        System.out.println("символ " + e1 + " имеет код ASCII " + aE);
 
         String s = "\\";
         String q = "/";
