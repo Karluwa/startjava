@@ -2,7 +2,7 @@ public class VariablesTheme {
     public static void main(String[] args) {
         byte ozu = 4;
         int dischargeProsessor = 64;
-        long codeOfProduct = 1794041729l;
+        long codeOfProduct = 1794041729L;
         float prosessorFrequency = 1.6f;
         double screen = 15.6;
         boolean goodFirma = true;
@@ -34,7 +34,7 @@ public class VariablesTheme {
         byte mBite = 127;
         short mShort = 32767;
         int mInt = 2147483647;
-        long mLong = 9223372036854775807l;
+        long mLong = 922337203685477580L;
         System.out.println("первоначальное значение maxByte " + mBite + "\nзначение maxByte после инкремента на единицу "
                 + mBite++ + "\nзначение maxByte после декремента на единицу " + mBite--+ "\n");
         System.out.println("первоначальное значение maxShort " + mShort + "\nзначение maxShort после инкремента на единицу "
